@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat IA</title>
+		<link rel="stylesheet" href="index.css" />
+		<script defer src="scripts/chat/main.js" type="module"></script>
+	</head>
+
+	<body>
+		<header></header>
+		<main>
+			<ul id="chat"></ul>
+
+			<span id="loading-progress"></span>
+
+			<form id="send-msg">
+				<input placeholder="Envía un mensaje" />
+				<button class="btn">Enviar</button>
+			</form>
+		</main>
+		<footer></footer>
+
+		<template id="msg-template">
+			<li>
+				<h3 class="who"></h3>
+				<p class="text"></p>
+			</li>
+		</template>
+	</body>
+</html>
