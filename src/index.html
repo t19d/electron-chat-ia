@@ -13,11 +13,15 @@
 		<main>
 			<ul id="chat"></ul>
 
-			<span id="loading-progress"></span>
+			<div id="loading-progress">
+				<span class="status"></span>
+				<span class="time"></span>
+				<span class="loading"></span>
+			</div>
 
 			<form id="send-msg">
 				<input placeholder="Envía un mensaje" />
-				<button class="btn">Enviar</button>
+				<button class="btn" disabled>Enviar</button>
 			</form>
 		</main>
 		<footer></footer>

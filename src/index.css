@@ -110,4 +110,9 @@ main {
 	&:hover {
 		background-color: #5906a5;
 	}
+
+	&:disabled {
+		cursor: not-allowed;
+		background-color: #dabbf5;
+	}
 }
